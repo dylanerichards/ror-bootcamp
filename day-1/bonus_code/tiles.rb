@@ -21,12 +21,10 @@ def calc_tile_cost
   surface_area = gets.chomp.to_i
 
   puts "Input cost of each unit!"
-  cost_of_each_unit = gets.chomp.to_i  
+  cost_of_each_unit = gets.chomp.to_i
 
   tile_cost = surface_area * cost_of_each_unit
-
   labor_cost = (surface_area / 20) * 86
-
   grand_total = tile_cost + labor_cost
 
   puts grand_total
